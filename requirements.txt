@@ -1,0 +1,5 @@
+tensorflow
+cv2-headless
+numpy
+streamlit
+os
