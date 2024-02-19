@@ -2,4 +2,3 @@ tensorflow
 opencv-python-headless
 numpy
 streamlit
-os
