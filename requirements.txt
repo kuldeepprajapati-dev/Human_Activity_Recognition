@@ -1,5 +1,5 @@
 tensorflow
-cv2-headless
+opencv-python-headless
 numpy
 streamlit
 os
