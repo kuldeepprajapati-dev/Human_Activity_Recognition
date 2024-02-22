@@ -9,7 +9,7 @@ model = load_model('Save_Model.h5')
 classes = ['Javelin Throw', 'High Jump', 'Biking', 'Playing Piano', 'Basketball']
 
 st.title('Human Activity Recognition')
-video = st.file_uploader('Upload your video', type=['mp4', 'mov', 'avi', 'mkv'])
+video = st.file_uploader('Upload your video', type=['mp4'])
 
 if video is not None:
     with open("temp_video.mp4", "wb") as f:
